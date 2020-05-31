@@ -1,0 +1,3 @@
+/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir
