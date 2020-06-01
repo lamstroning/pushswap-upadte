@@ -24,20 +24,21 @@ typedef struct	s_stk
 	int			cnt_b;
 	int			min;
 	int			max;
+	int			flags[3];
 }				t_stk;
 
 /*
 	push_swap.c
 */
-t_stk	*create_stack();
-
+t_stk	*create_stack(int stk_size, int *a);
 
 /*
 	validate.c
 */
+int 	skip_flags(const char **args);
 void	error(char *msg);
-t_stk	check_validate(const char **args, int len);
-int		search_flags(const char **args, int len);
+int		check_validate(const char **args, int len, int **a);
+int		search_flags(const char **args, int len, t_stk *stk);
 
 /*
 	flags_list.c
