@@ -12,7 +12,7 @@
 
 #include "push_swap.h"
 
-int		check_validate(const char **args, int len, int **a)
+int		check_validate(char **args, int len, int **a)
 {
 	int		i;
 	int		size;
@@ -21,7 +21,7 @@ int		check_validate(const char **args, int len, int **a)
 
 	i = skip_flags(args);
 	count_elements = len + (i + 1) * -1;
-	if (count_elements <= 1)
+	if (count_elements < 1)
 		error("please, enter minimum 2 numbers");
 	*a = ft_memalloc(sizeof(int) * count_elements);
 	size = 0;
@@ -39,7 +39,7 @@ int		check_validate(const char **args, int len, int **a)
 	return (size);
 }
 
-int		skip_flags(const char **args)
+int		skip_flags(char **args)
 {
 	int		count_flags;
 
@@ -53,7 +53,7 @@ int		skip_flags(const char **args)
 	return (count_flags);
 }
 
-int		search_flags(const char **args, int len, t_stk *stk)
+int		search_flags(char **args, int len, t_stk *stk)
 {
 	int		i;
 	int		result;
@@ -70,10 +70,8 @@ int		search_flags(const char **args, int len, t_stk *stk)
 
 void	error(char *msg)
 {
-	write(2, "Error: ", 7);
-	write(2, msg, ft_strlen(msg));
+	ft_putstr_fd("\033[91mError: ", 2);
+	ft_putstr_fd(msg, 2);
 	write(2, "\n", 1);
-
-//	ft_printf("Error: %s\n", msg);
 	exit(1);
 }

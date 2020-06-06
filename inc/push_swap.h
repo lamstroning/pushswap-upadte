@@ -31,14 +31,15 @@ typedef struct	s_stk
 	push_swap.c
 */
 t_stk	*create_stack(int stk_size, int *a);
-
+char	**parse_string(const char **argv, int len, int *stk_size);
+char	**merge_stack(char ****merge, int size);
 /*
 	validate.c
 */
-int 	skip_flags(const char **args);
+int 	skip_flags(char **args);
 void	error(char *msg);
-int		check_validate(const char **args, int len, int **a);
-int		search_flags(const char **args, int len, t_stk *stk);
+int		check_validate(char **args, int len, int **a);
+int		search_flags(char **args, int len, t_stk *stk);
 
 /*
 	flags_list.c

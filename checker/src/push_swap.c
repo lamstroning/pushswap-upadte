@@ -16,9 +16,9 @@ t_stk	*create_stack(int stk_size, int *a)
 {
 	t_stk	*stk;
 
-	stk = ft_memalloc(sizeof(t_stk));
+	stk = (t_stk*)ft_memalloc(sizeof(t_stk));
 	stk->a = a;
-	stk->b = ft_memalloc(sizeof(int) * stk_size);
+	stk->b = (int*)ft_memalloc(sizeof(int) * stk_size);
 	stk->max = stk_size;
 	stk->min = 0;
 	stk->cnt_a = stk_size;
@@ -28,20 +28,74 @@ t_stk	*create_stack(int stk_size, int *a)
 	return (stk);
 }
 
+char	**parse_string(const char **argv, int len, int *stk_size)
+{
+	char	***tmp;
+	int		i;
+	int 	j;
+	int 	size;
+
+	j = -1;
+	i = -1;
+	size = -1;
+	tmp = (char***)ft_memalloc(sizeof(char **) * len);
+	while (++i < len)
+	{
+		tmp[i] = ft_strsplit(argv[i], ' ');
+		while (tmp[i][++j] != NULL)
+			size++;
+		j = -1;
+	}
+	*stk_size = size;
+	return (merge_stack(&tmp, size));
+}
+
+char	**merge_stack(char ****merge, int size)
+{
+	char	**res;
+	int		i;
+	int		j;
+	char	**current;
+
+	i = 0;
+	j = -1;
+	res = (char**)ft_memalloc(sizeof(char *) * size);
+	current = res;
+	while (size >= 0)
+	{
+		while ((*merge)[i][++j] != NULL)
+		{
+			*res = ft_strdup((*merge)[i][j]);
+			ft_printf("%s\n", *res);
+			res++;
+			ft_strdel(&(*merge)[i][j]);
+			size--;
+		}
+		free((*merge)[i]);
+		i++;
+		j = -1;
+	}
+	free(*merge);
+	return (current);
+}
+
 int		main(int argc, const char **argv)
 {
 	t_stk	*stack;
 	int		size;
+	char	**args_stk;
 	int		*a;
-	if (argc <= 1)
+
+	if (argc < 1)
 		error("empty arguments");
-	size = check_validate(&argv[1], argc - 1, &a);
+	args_stk = parse_string(&argv[1], argc - 1, &size);
+	size = check_validate(args_stk, size, &a);
 	stack = create_stack(size, a);
-	search_flags(&argv[1], argc - 2, stack);
-	while (stack->cnt_a--)
-	{
-		ft_putnbr(stack->a[stack->cnt_a]);
-		ft_putchar('\n');
-	}
+	search_flags(args_stk, argc - 2, stack);
+//	while (stack->cnt_a--)
+//	{
+//		ft_putnbr(stack->a[stack->cnt_a]);
+//		ft_putchar('\n');
+//	}
 	return (0);
 }
