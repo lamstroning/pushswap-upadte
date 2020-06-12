@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/112/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/lenus/Desktop/PushSwapNew/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/112/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/112/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -122,6 +122,60 @@ PushSwapNew: cmake_check_build_system
 PushSwapNew/fast:
 	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/build
 .PHONY : PushSwapNew/fast
+
+checker/src/algorithm.o: checker/src/algorithm.c.o
+
+.PHONY : checker/src/algorithm.o
+
+# target to build an object file
+checker/src/algorithm.c.o:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o
+.PHONY : checker/src/algorithm.c.o
+
+checker/src/algorithm.i: checker/src/algorithm.c.i
+
+.PHONY : checker/src/algorithm.i
+
+# target to preprocess a source file
+checker/src/algorithm.c.i:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.i
+.PHONY : checker/src/algorithm.c.i
+
+checker/src/algorithm.s: checker/src/algorithm.c.s
+
+.PHONY : checker/src/algorithm.s
+
+# target to generate assembly for a file
+checker/src/algorithm.c.s:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.s
+.PHONY : checker/src/algorithm.c.s
+
+checker/src/command.o: checker/src/command.c.o
+
+.PHONY : checker/src/command.o
+
+# target to build an object file
+checker/src/command.c.o:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/command.c.o
+.PHONY : checker/src/command.c.o
+
+checker/src/command.i: checker/src/command.c.i
+
+.PHONY : checker/src/command.i
+
+# target to preprocess a source file
+checker/src/command.c.i:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/command.c.i
+.PHONY : checker/src/command.c.i
+
+checker/src/command.s: checker/src/command.c.s
+
+.PHONY : checker/src/command.s
+
+# target to generate assembly for a file
+checker/src/command.c.s:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/command.c.s
+.PHONY : checker/src/command.c.s
 
 checker/src/flags_list.o: checker/src/flags_list.c.o
 
@@ -176,6 +230,33 @@ checker/src/push_swap.s: checker/src/push_swap.c.s
 checker/src/push_swap.c.s:
 	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/push_swap.c.s
 .PHONY : checker/src/push_swap.c.s
+
+checker/src/utils.o: checker/src/utils.c.o
+
+.PHONY : checker/src/utils.o
+
+# target to build an object file
+checker/src/utils.c.o:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o
+.PHONY : checker/src/utils.c.o
+
+checker/src/utils.i: checker/src/utils.c.i
+
+.PHONY : checker/src/utils.i
+
+# target to preprocess a source file
+checker/src/utils.c.i:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/utils.c.i
+.PHONY : checker/src/utils.c.i
+
+checker/src/utils.s: checker/src/utils.c.s
+
+.PHONY : checker/src/utils.s
+
+# target to generate assembly for a file
+checker/src/utils.c.s:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/checker/src/utils.c.s
+.PHONY : checker/src/utils.c.s
 
 checker/src/validate.o: checker/src/validate.c.o
 
@@ -2670,12 +2751,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PushSwapNew"
+	@echo "... checker/src/algorithm.o"
+	@echo "... checker/src/algorithm.i"
+	@echo "... checker/src/algorithm.s"
+	@echo "... checker/src/command.o"
+	@echo "... checker/src/command.i"
+	@echo "... checker/src/command.s"
 	@echo "... checker/src/flags_list.o"
 	@echo "... checker/src/flags_list.i"
 	@echo "... checker/src/flags_list.s"
 	@echo "... checker/src/push_swap.o"
 	@echo "... checker/src/push_swap.i"
 	@echo "... checker/src/push_swap.s"
+	@echo "... checker/src/utils.o"
+	@echo "... checker/src/utils.i"
+	@echo "... checker/src/utils.s"
 	@echo "... checker/src/validate.o"
 	@echo "... checker/src/validate.i"
 	@echo "... checker/src/validate.s"

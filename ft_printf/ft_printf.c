@@ -12,6 +12,15 @@
 
 #include "ft_printf.h"
 
+int			end_return(t_spec *conf)
+{
+	int		len;
+
+	len = conf->len;
+	free(conf);
+	return (len);
+}
+
 t_spec		*conf_create(void)
 {
 	t_spec *res;
@@ -53,8 +62,7 @@ int			ft_printf(char const *format, ...)
 		i++;
 	}
 	va_end(ap);
-	free(conf);
-	return (conf->len);
+	return (end_return(conf));
 }
 
 int			spec_format(char const *check, va_list ap, t_spec *conf)

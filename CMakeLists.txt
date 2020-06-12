@@ -104,4 +104,4 @@ add_executable(PushSwapNew
         libft/ft_unitoa.c
         libft/ft_upstr.c
         libft/get_next_line.c
-        libft/libft.h)
+        libft/libft.h checker/src/command.c checker/src/algorithm.c checker/src/utils.c)

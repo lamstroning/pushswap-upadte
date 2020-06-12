@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/lenus/Desktop/PushSwapNew/checker/src/algorithm.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o"
+  "/home/lenus/Desktop/PushSwapNew/checker/src/command.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/checker/src/command.c.o"
   "/home/lenus/Desktop/PushSwapNew/checker/src/flags_list.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/checker/src/flags_list.c.o"
   "/home/lenus/Desktop/PushSwapNew/checker/src/push_swap.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/checker/src/push_swap.c.o"
+  "/home/lenus/Desktop/PushSwapNew/checker/src/utils.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o"
   "/home/lenus/Desktop/PushSwapNew/checker/src/validate.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/checker/src/validate.c.o"
   "/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/ft_printf/check_format.c.o"
   "/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/ft_printf/ft_printf.c.o"

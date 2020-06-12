@@ -19,6 +19,8 @@ char	*ft_addnchr_e(char *str, char c, int cont)
 	int		j;
 
 	i = -1;
+	if (cont < 0)
+		cont = 0;
 	if (str == NULL)
 	{
 		tmp = ft_strnew(cont);
@@ -27,7 +29,8 @@ char	*ft_addnchr_e(char *str, char c, int cont)
 		return (tmp);
 	}
 	j = ft_strlen(str);
-	tmp = ft_strdup(str);
+	tmp = ft_strnew(j + cont);
+	tmp = ft_strcpy(tmp, str);
 	while (++i < cont)
 		tmp[j++] = c;
 	return (tmp);

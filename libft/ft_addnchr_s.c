@@ -19,6 +19,8 @@ char	*ft_addnchr_s(char *str, char c, int cont)
 	int		i;
 
 	i = -1;
+	if (cont < 0)
+		cont = 0;
 	if (str == NULL)
 	{
 		tmp = ft_strnew(cont);

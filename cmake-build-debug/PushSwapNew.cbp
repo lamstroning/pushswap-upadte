@@ -84,10 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lenus/Desktop/PushSwapNew/checker/src/algorithm.c">
+			<Option target="PushSwapNew"/>
+		</Unit>
+		<Unit filename="/home/lenus/Desktop/PushSwapNew/checker/src/command.c">
+			<Option target="PushSwapNew"/>
+		</Unit>
 		<Unit filename="/home/lenus/Desktop/PushSwapNew/checker/src/flags_list.c">
 			<Option target="PushSwapNew"/>
 		</Unit>
 		<Unit filename="/home/lenus/Desktop/PushSwapNew/checker/src/push_swap.c">
+			<Option target="PushSwapNew"/>
+		</Unit>
+		<Unit filename="/home/lenus/Desktop/PushSwapNew/checker/src/utils.c">
 			<Option target="PushSwapNew"/>
 		</Unit>
 		<Unit filename="/home/lenus/Desktop/PushSwapNew/checker/src/validate.c">

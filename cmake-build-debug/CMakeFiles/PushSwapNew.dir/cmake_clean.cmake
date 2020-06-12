@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o"
+  "CMakeFiles/PushSwapNew.dir/checker/src/command.c.o"
   "CMakeFiles/PushSwapNew.dir/checker/src/flags_list.c.o"
   "CMakeFiles/PushSwapNew.dir/checker/src/push_swap.c.o"
+  "CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o"
   "CMakeFiles/PushSwapNew.dir/checker/src/validate.c.o"
   "CMakeFiles/PushSwapNew.dir/ft_printf/check_format.c.o"
   "CMakeFiles/PushSwapNew.dir/ft_printf/ft_printf.c.o"

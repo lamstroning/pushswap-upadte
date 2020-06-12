@@ -10,13 +10,13 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= checker
+NAME	= push_swap
 
 SRCDIR	= ./src
 OBJDIR	= ./obj
 
 # src / obj files
-SRC		= push_swap.c validate.c flags_list.c command.c algorithm.c
+SRC		= main.c
 
 OBJ		= $(addprefix $(OBJDIR)/,$(SRC:.c=.o))
 

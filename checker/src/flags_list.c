@@ -31,7 +31,7 @@ int		check_flag(const char *flag)
 	if (!ft_strcmp(flag, "-help") || !ft_strcmp(flag, "-h"))
 		help_flag();
 	else if (!ft_strcmp(flag, "-v"))
-			return (0);
+		return (0);
 	else if (!ft_strcmp(flag, "-c"))
 		return (1);
 	else if (ft_isalnum(flag[1]))

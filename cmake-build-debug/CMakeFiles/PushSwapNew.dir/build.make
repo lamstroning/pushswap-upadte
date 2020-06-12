@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/112/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -1279,6 +1279,45 @@ CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/get_next_line.c -o CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.s
 
+CMakeFiles/PushSwapNew.dir/checker/src/command.c.o: CMakeFiles/PushSwapNew.dir/flags.make
+CMakeFiles/PushSwapNew.dir/checker/src/command.c.o: ../checker/src/command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/PushSwapNew.dir/checker/src/command.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PushSwapNew.dir/checker/src/command.c.o   -c /home/lenus/Desktop/PushSwapNew/checker/src/command.c
+
+CMakeFiles/PushSwapNew.dir/checker/src/command.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PushSwapNew.dir/checker/src/command.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/checker/src/command.c > CMakeFiles/PushSwapNew.dir/checker/src/command.c.i
+
+CMakeFiles/PushSwapNew.dir/checker/src/command.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PushSwapNew.dir/checker/src/command.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/checker/src/command.c -o CMakeFiles/PushSwapNew.dir/checker/src/command.c.s
+
+CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o: CMakeFiles/PushSwapNew.dir/flags.make
+CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o: ../checker/src/algorithm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o   -c /home/lenus/Desktop/PushSwapNew/checker/src/algorithm.c
+
+CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/checker/src/algorithm.c > CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.i
+
+CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/checker/src/algorithm.c -o CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.s
+
+CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o: CMakeFiles/PushSwapNew.dir/flags.make
+CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o: ../checker/src/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o   -c /home/lenus/Desktop/PushSwapNew/checker/src/utils.c
+
+CMakeFiles/PushSwapNew.dir/checker/src/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PushSwapNew.dir/checker/src/utils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/checker/src/utils.c > CMakeFiles/PushSwapNew.dir/checker/src/utils.c.i
+
+CMakeFiles/PushSwapNew.dir/checker/src/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PushSwapNew.dir/checker/src/utils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/checker/src/utils.c -o CMakeFiles/PushSwapNew.dir/checker/src/utils.c.s
+
 # Object files for target PushSwapNew
 PushSwapNew_OBJECTS = \
 "CMakeFiles/PushSwapNew.dir/checker/src/flags_list.c.o" \
@@ -1374,7 +1413,10 @@ PushSwapNew_OBJECTS = \
 "CMakeFiles/PushSwapNew.dir/libft/ft_toupper.c.o" \
 "CMakeFiles/PushSwapNew.dir/libft/ft_unitoa.c.o" \
 "CMakeFiles/PushSwapNew.dir/libft/ft_upstr.c.o" \
-"CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.o"
+"CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.o" \
+"CMakeFiles/PushSwapNew.dir/checker/src/command.c.o" \
+"CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o" \
+"CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o"
 
 # External object files for target PushSwapNew
 PushSwapNew_EXTERNAL_OBJECTS =
@@ -1473,9 +1515,12 @@ PushSwapNew: CMakeFiles/PushSwapNew.dir/libft/ft_toupper.c.o
 PushSwapNew: CMakeFiles/PushSwapNew.dir/libft/ft_unitoa.c.o
 PushSwapNew: CMakeFiles/PushSwapNew.dir/libft/ft_upstr.c.o
 PushSwapNew: CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.o
+PushSwapNew: CMakeFiles/PushSwapNew.dir/checker/src/command.c.o
+PushSwapNew: CMakeFiles/PushSwapNew.dir/checker/src/algorithm.c.o
+PushSwapNew: CMakeFiles/PushSwapNew.dir/checker/src/utils.c.o
 PushSwapNew: CMakeFiles/PushSwapNew.dir/build.make
 PushSwapNew: CMakeFiles/PushSwapNew.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Linking C executable PushSwapNew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Linking C executable PushSwapNew"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PushSwapNew.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
