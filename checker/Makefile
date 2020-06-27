@@ -16,7 +16,7 @@ SRCDIR	= ./src
 OBJDIR	= ./obj
 
 # src / obj files
-SRC		= push_swap.c validate.c flags_list.c command.c algorithm.c
+SRC		= push_swap.c validate.c flags_list.c command.c algorithm.c utils.c
 
 OBJ		= $(addprefix $(OBJDIR)/,$(SRC:.c=.o))
 
@@ -30,7 +30,7 @@ PFTDIR	= ../ft_printf
 FT_LIB	= $(addprefix $(FTDIR)/,libft.a)
 PFT_LIB	= $(addprefix $(PFTDIR)/,libftprintf.a)
 FT_INC	= -I $(FTDIR)
-H_INC	= -I../inc
+H_INC	= -I ./inc
 PFT_INC	= -I $(PFTDIR)
 FT_LNK	= -L $(FTDIR) -lft
 PFT_LNK	= -L $(PFTDIR) -lftprintf

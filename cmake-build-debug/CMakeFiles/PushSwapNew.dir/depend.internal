@@ -310,3 +310,8 @@ CMakeFiles/PushSwapNew.dir/libft/ft_upstr.c.o
 CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.o
  /home/lenus/Desktop/PushSwapNew/libft/get_next_line.c
  /home/lenus/Desktop/PushSwapNew/libft/libft.h
+CMakeFiles/PushSwapNew.dir/pushswap/src/main.c.o
+ ../ft_printf/ft_printf.h
+ ../inc/push_swap.h
+ ../libft/libft.h
+ /home/lenus/Desktop/PushSwapNew/pushswap/src/main.c

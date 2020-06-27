@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../ft_printf/ft_printf.h
+stdarg.h
+-
+../libft/libft.h
+../../libft/libft.h
+
+../../libft/libft.h
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+stdarg.h
+-
+
+../inc/push_swap.h
+libft.h
+../inc/libft.h
+ft_printf.h
+../inc/ft_printf.h
+fcntl.h
+-
+
+/home/lenus/Desktop/PushSwapNew/pushswap/src/main.c
+push_swap.h
+/home/lenus/Desktop/PushSwapNew/pushswap/src/push_swap.h
+

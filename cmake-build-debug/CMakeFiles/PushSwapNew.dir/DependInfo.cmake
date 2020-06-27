@@ -101,6 +101,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/libft/ft_unitoa.c.o"
   "/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/libft/ft_upstr.c.o"
   "/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.o"
+  "/home/lenus/Desktop/PushSwapNew/pushswap/src/main.c" "/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles/PushSwapNew.dir/pushswap/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

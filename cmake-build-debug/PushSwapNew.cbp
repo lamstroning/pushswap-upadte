@@ -384,6 +384,9 @@
 		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/libft.h">
 			<Option target="PushSwapNew"/>
 		</Unit>
+		<Unit filename="/home/lenus/Desktop/PushSwapNew/pushswap/src/main.c">
+			<Option target="PushSwapNew"/>
+		</Unit>
 		<Unit filename="/home/lenus/Desktop/PushSwapNew/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

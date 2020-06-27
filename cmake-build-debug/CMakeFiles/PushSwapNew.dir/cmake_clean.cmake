@@ -96,6 +96,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PushSwapNew.dir/libft/ft_unitoa.c.o"
   "CMakeFiles/PushSwapNew.dir/libft/ft_upstr.c.o"
   "CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.o"
+  "CMakeFiles/PushSwapNew.dir/pushswap/src/main.c.o"
   "PushSwapNew"
   "PushSwapNew.pdb"
 )

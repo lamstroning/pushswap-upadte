@@ -2742,6 +2742,33 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
+pushswap/src/main.o: pushswap/src/main.c.o
+
+.PHONY : pushswap/src/main.o
+
+# target to build an object file
+pushswap/src/main.c.o:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/pushswap/src/main.c.o
+.PHONY : pushswap/src/main.c.o
+
+pushswap/src/main.i: pushswap/src/main.c.i
+
+.PHONY : pushswap/src/main.i
+
+# target to preprocess a source file
+pushswap/src/main.c.i:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/pushswap/src/main.c.i
+.PHONY : pushswap/src/main.c.i
+
+pushswap/src/main.s: pushswap/src/main.c.s
+
+.PHONY : pushswap/src/main.s
+
+# target to generate assembly for a file
+pushswap/src/main.c.s:
+	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/pushswap/src/main.c.s
+.PHONY : pushswap/src/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3042,6 +3069,9 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... pushswap/src/main.o"
+	@echo "... pushswap/src/main.i"
+	@echo "... pushswap/src/main.s"
 .PHONY : help
 
 
