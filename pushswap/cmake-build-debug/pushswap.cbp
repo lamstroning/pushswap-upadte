@@ -8,368 +8,368 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug"/>
+				<Option working_dir="/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug"/>
+				<Option working_dir="/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug"/>
+				<Option working_dir="/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pushswap">
-				<Option output="/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/pushswap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug"/>
+				<Option output="/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/pushswap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/lenus/Desktop/PushSwapNew/pushswap/../ft_printf"/>
-					<Add directory="/home/lenus/Desktop/PushSwapNew/pushswap/inc"/>
-					<Add directory="/home/lenus/Desktop/PushSwapNew/pushswap/../libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Users/tdontos-/Desktop/pushswap/pushswap/../ft_printf"/>
+					<Add directory="/Users/tdontos-/Desktop/pushswap/pushswap/inc"/>
+					<Add directory="/Users/tdontos-/Desktop/pushswap/pushswap/../libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 pushswap"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 pushswap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pushswap/fast">
-				<Option output="/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/pushswap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug"/>
+				<Option output="/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/pushswap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/lenus/Desktop/PushSwapNew/pushswap/../ft_printf"/>
-					<Add directory="/home/lenus/Desktop/PushSwapNew/pushswap/inc"/>
-					<Add directory="/home/lenus/Desktop/PushSwapNew/pushswap/../libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Users/tdontos-/Desktop/pushswap/pushswap/../ft_printf"/>
+					<Add directory="/Users/tdontos-/Desktop/pushswap/pushswap/inc"/>
+					<Add directory="/Users/tdontos-/Desktop/pushswap/pushswap/../libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 pushswap/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 pushswap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.h">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.h">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/ft_printf/output.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/ft_printf/output.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/libft/libft.h">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/libft/libft.h">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/pushswap/inc/push_swap.h">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/pushswap/inc/push_swap.h">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/pushswap/src/main.c">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/pushswap/src/main.c">
 			<Option target="pushswap"/>
 		</Unit>
-		<Unit filename="/home/lenus/Desktop/PushSwapNew/pushswap/CMakeLists.txt">
+		<Unit filename="/Users/tdontos-/Desktop/pushswap/pushswap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

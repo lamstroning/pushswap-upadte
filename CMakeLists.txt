@@ -1,15 +1,21 @@
 cmake_minimum_required(VERSION 3.16)
-project(PushSwapNew C)
+project(pushswap C)
 
 set(CMAKE_C_STANDARD 11)
 
+include_directories(checker/inc)
 include_directories(ft_printf)
 include_directories(inc)
 include_directories(libft)
+include_directories(pushswap/inc)
 
-add_executable(PushSwapNew
+add_executable(pushswap
+        checker/inc/push_swap.h
+        checker/src/algorithm.c
+        checker/src/command.c
         checker/src/flags_list.c
         checker/src/push_swap.c
+        checker/src/utils.c
         checker/src/validate.c
         ft_printf/check_format.c
         ft_printf/ft_printf.c
@@ -104,4 +110,6 @@ add_executable(PushSwapNew
         libft/ft_unitoa.c
         libft/ft_upstr.c
         libft/get_next_line.c
-        libft/libft.h checker/src/command.c checker/src/algorithm.c checker/src/utils.c pushswap/src/main.c)
+        libft/libft.h
+        pushswap/inc/push_swap.h
+        pushswap/src/main.c)

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001kmw000cn7/T/AppTranslocation/456D6571-C125-4090-98C5-869026C5B5D2/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001kmw000cn7/T/AppTranslocation/456D6571-C125-4090-98C5-869026C5B5D2/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lenus/Desktop/PushSwapNew/pushswap
+CMAKE_SOURCE_DIR = /Users/tdontos-/Desktop/pushswap/pushswap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pushswap.dir/depend.make
@@ -59,1393 +59,1393 @@ include CMakeFiles/pushswap.dir/flags.make
 
 CMakeFiles/pushswap.dir/src/main.c.o: CMakeFiles/pushswap.dir/flags.make
 CMakeFiles/pushswap.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pushswap.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/src/main.c.o   -c /home/lenus/Desktop/PushSwapNew/pushswap/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pushswap.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/src/main.c.o   -c /Users/tdontos-/Desktop/pushswap/pushswap/src/main.c
 
 CMakeFiles/pushswap.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/pushswap/src/main.c > CMakeFiles/pushswap.dir/src/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/pushswap/src/main.c > CMakeFiles/pushswap.dir/src/main.c.i
 
 CMakeFiles/pushswap.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/pushswap/src/main.c -o CMakeFiles/pushswap.dir/src/main.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o: /home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o   -c /home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o: /home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o   -c /home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o: /home/lenus/Desktop/PushSwapNew/ft_printf/output.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o   -c /home/lenus/Desktop/PushSwapNew/ft_printf/output.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/ft_printf/output.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/ft_printf/output.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o: /home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o   -c /home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o: /home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o   -c /home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o: /home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o   -c /home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_comb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_comb.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_comb.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_comb.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_expn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_expn.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_expn.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_expn.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_hex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_hex.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_hex.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_hex.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_memset.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_memset.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_memset.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_octal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_octal.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_octal.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_octal.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_pow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_pow.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_pow.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_pow.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_striter.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_striter.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_striter.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_swap.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_swap.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_swap.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o: /home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.s
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o: CMakeFiles/pushswap.dir/flags.make
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o: /home/lenus/Desktop/PushSwapNew/libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o   -c /home/lenus/Desktop/PushSwapNew/libft/get_next_line.c
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lenus/Desktop/PushSwapNew/libft/get_next_line.c > CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.i
-
-CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lenus/Desktop/PushSwapNew/libft/get_next_line.c -o CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/pushswap/src/main.c -o CMakeFiles/pushswap.dir/src/main.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o: /Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o   -c /Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o: /Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o   -c /Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o: /Users/tdontos-/Desktop/pushswap/ft_printf/output.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o   -c /Users/tdontos-/Desktop/pushswap/ft_printf/output.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/ft_printf/output.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/ft_printf/output.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o: /Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o   -c /Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o: /Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o   -c /Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o: /Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o   -c /Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_comb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_comb.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_comb.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_comb.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_expn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_expn.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_expn.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_expn.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_hex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_hex.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_hex.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_hex.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_memset.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_memset.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_memset.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_octal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_octal.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_octal.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_octal.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_pow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_pow.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_pow.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_pow.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_striter.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_striter.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_striter.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_swap.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_swap.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_swap.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o: /Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.s
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o: CMakeFiles/pushswap.dir/flags.make
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o: /Users/tdontos-/Desktop/pushswap/libft/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o   -c /Users/tdontos-/Desktop/pushswap/libft/get_next_line.c
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tdontos-/Desktop/pushswap/libft/get_next_line.c > CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.i
+
+CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tdontos-/Desktop/pushswap/libft/get_next_line.c -o CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.s
 
 # Object files for target pushswap
 pushswap_OBJECTS = \
 "CMakeFiles/pushswap.dir/src/main.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o" \
-"CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o"
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o" \
+"CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o"
 
 # External object files for target pushswap
 pushswap_EXTERNAL_OBJECTS =
 
 pushswap: CMakeFiles/pushswap.dir/src/main.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o
-pushswap: CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o
+pushswap: CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o
 pushswap: CMakeFiles/pushswap.dir/build.make
 pushswap: CMakeFiles/pushswap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Linking C executable pushswap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Linking C executable pushswap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pushswap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1458,6 +1458,6 @@ CMakeFiles/pushswap.dir/clean:
 .PHONY : CMakeFiles/pushswap.dir/clean
 
 CMakeFiles/pushswap.dir/depend:
-	cd /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lenus/Desktop/PushSwapNew/pushswap /home/lenus/Desktop/PushSwapNew/pushswap /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tdontos-/Desktop/pushswap/pushswap /Users/tdontos-/Desktop/pushswap/pushswap /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles/pushswap.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pushswap.dir/depend
 

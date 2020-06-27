@@ -17,6 +17,7 @@ void	align_stack(t_stk *stk, int num, char *func(char *s, char c, int len))
 	char	*a_num;
 	int		len;
 	char	*empty;
+
 	a_num = ft_itoa(num);
 	len = (int)ft_strlen(a_num) - stk->dist + 4;
 	empty = func(a_num, ' ', (len * -1) + 3);
@@ -74,7 +75,8 @@ void	distance_char(t_stk *stk)
 	int		max;
 
 	max = stk->max;
-	while (max >= 10) {
+	while (max >= 10)
+	{
 		max /= 10;
 		stk->dist++;
 	}

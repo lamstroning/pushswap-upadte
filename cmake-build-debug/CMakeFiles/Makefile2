@@ -35,25 +35,25 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001kmw000cn7/T/AppTranslocation/456D6571-C125-4090-98C5-869026C5B5D2/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001kmw000cn7/T/AppTranslocation/456D6571-C125-4090-98C5-869026C5B5D2/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lenus/Desktop/PushSwapNew
+CMAKE_SOURCE_DIR = /Users/tdontos-/Desktop/pushswap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lenus/Desktop/PushSwapNew/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tdontos-/Desktop/pushswap/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/PushSwapNew.dir/all
+all: CMakeFiles/pushswap.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/PushSwapNew.dir/clean
+clean: CMakeFiles/pushswap.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/PushSwapNew.dir
+# Target rules for target CMakeFiles/pushswap.dir
 
 # All Build rule for target.
-CMakeFiles/PushSwapNew.dir/all:
-	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/depend
-	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target PushSwapNew"
-.PHONY : CMakeFiles/PushSwapNew.dir/all
+CMakeFiles/pushswap.dir/all:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/depend
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tdontos-/Desktop/pushswap/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target pushswap"
+.PHONY : CMakeFiles/pushswap.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PushSwapNew.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles 99
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PushSwapNew.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lenus/Desktop/PushSwapNew/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/PushSwapNew.dir/rule
+CMakeFiles/pushswap.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tdontos-/Desktop/pushswap/cmake-build-debug/CMakeFiles 99
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pushswap.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tdontos-/Desktop/pushswap/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pushswap.dir/rule
 
 # Convenience name for target.
-PushSwapNew: CMakeFiles/PushSwapNew.dir/rule
+pushswap: CMakeFiles/pushswap.dir/rule
 
-.PHONY : PushSwapNew
+.PHONY : pushswap
 
 # clean rule for target.
-CMakeFiles/PushSwapNew.dir/clean:
-	$(MAKE) -f CMakeFiles/PushSwapNew.dir/build.make CMakeFiles/PushSwapNew.dir/clean
-.PHONY : CMakeFiles/PushSwapNew.dir/clean
+CMakeFiles/pushswap.dir/clean:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/clean
+.PHONY : CMakeFiles/pushswap.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

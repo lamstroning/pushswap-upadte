@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001kmw000cn7/T/AppTranslocation/456D6571-C125-4090-98C5-869026C5B5D2/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001kmw000cn7/T/AppTranslocation/456D6571-C125-4090-98C5-869026C5B5D2/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lenus/Desktop/PushSwapNew/pushswap
+CMAKE_SOURCE_DIR = /Users/tdontos-/Desktop/pushswap/pushswap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0001kmw000cn7/T/AppTranslocation/456D6571-C125-4090-98C5-869026C5B5D2/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0001kmw000cn7/T/AppTranslocation/456D6571-C125-4090-98C5-869026C5B5D2/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lenus/Desktop/PushSwapNew/pushswap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tdontos-/Desktop/pushswap/pushswap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,2462 +123,2462 @@ pushswap/fast:
 	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/build
 .PHONY : pushswap/fast
 
-home/lenus/Desktop/PushSwapNew/ft_printf/check_format.o: home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/check_format.o: Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/check_format.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/check_format.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.o
 
-home/lenus/Desktop/PushSwapNew/ft_printf/check_format.i: home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/check_format.i: Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/check_format.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/check_format.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.i
 
-home/lenus/Desktop/PushSwapNew/ft_printf/check_format.s: home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/check_format.s: Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/check_format.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/check_format.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/check_format.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/check_format.c.s
 
-home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.o: home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.o: Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.o
 
-home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.i: home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.i: Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.i
 
-home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.s: home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.s: Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.c.s
 
-home/lenus/Desktop/PushSwapNew/ft_printf/output.o: home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/output.o: Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/output.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/output.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/output.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/output.c.o
 
-home/lenus/Desktop/PushSwapNew/ft_printf/output.i: home/lenus/Desktop/PushSwapNew/ft_printf/output.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/output.i: Users/tdontos-/Desktop/pushswap/ft_printf/output.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/output.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/output.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/ft_printf/output.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/output.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/output.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/output.c.i
 
-home/lenus/Desktop/PushSwapNew/ft_printf/output.s: home/lenus/Desktop/PushSwapNew/ft_printf/output.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/output.s: Users/tdontos-/Desktop/pushswap/ft_printf/output.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/output.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/output.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/ft_printf/output.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/output.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/output.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/output.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/output.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/output.c.s
 
-home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.o: home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.o: Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.o
 
-home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.i: home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.i: Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.i
 
-home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.s: home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.s: Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.c.s
 
-home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.o: home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.o: Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.o
 
-home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.i: home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.i: Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.i
 
-home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.s: home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.s: Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.c.s
 
-home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.o: home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.o: Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.o
+Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.o
 
-home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.i: home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.i: Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.i
+Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.i
 
-home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.s: home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.s: Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.c.s
+Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.o: home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.o: Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.i: home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.i: Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.s: home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.s: Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.o: home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.o: Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.i: home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.i: Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.s: home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.s: Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.o: home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.o: Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.i: home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.i: Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.s: home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.s: Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.o: home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.o: Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.i: home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.i: Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.s: home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.s: Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_atoi.o: home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_atoi.o: Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_atoi.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_atoi.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_atoi.i: home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_atoi.i: Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_atoi.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_atoi.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_atoi.s: home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_atoi.s: Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_atoi.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_atoi.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_atoi.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_atoi.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_bzero.o: home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_bzero.o: Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_bzero.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_bzero.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_bzero.i: home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_bzero.i: Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_bzero.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_bzero.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_bzero.s: home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_bzero.s: Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_bzero.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_bzero.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_bzero.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_bzero.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.o: home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.o: Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.i: home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.i: Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.s: home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.s: Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.o: home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.o: Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.i: home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.i: Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.s: home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.s: Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_comb.o: home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_comb.o: Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_comb.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_comb.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_comb.i: home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_comb.i: Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_comb.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_comb.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_comb.s: home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_comb.s: Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_comb.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_comb.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_comb.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_comb.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_expn.o: home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_expn.o: Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_expn.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_expn.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_expn.i: home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_expn.i: Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_expn.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_expn.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_expn.s: home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_expn.s: Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_expn.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_expn.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_expn.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_expn.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.o: home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.o: Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.i: home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.i: Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.s: home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.s: Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_hex.o: home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_hex.o: Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_hex.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_hex.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_hex.i: home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_hex.i: Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_hex.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_hex.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_hex.s: home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_hex.s: Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_hex.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_hex.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_hex.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_hex.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.o: home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.o: Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.i: home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.i: Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.s: home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.s: Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.o: home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.o: Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.i: home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.i: Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.s: home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.s: Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isascii.o: home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isascii.o: Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isascii.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isascii.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isascii.i: home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isascii.i: Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isascii.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isascii.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isascii.s: home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isascii.s: Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isascii.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isascii.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isascii.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isascii.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.o: home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.o: Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.i: home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.i: Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.s: home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.s: Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isprint.o: home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isprint.o: Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isprint.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isprint.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isprint.i: home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isprint.i: Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isprint.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isprint.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isprint.s: home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isprint.s: Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isprint.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isprint.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isprint.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isprint.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isspace.o: home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isspace.o: Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isspace.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isspace.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isspace.i: home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isspace.i: Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isspace.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isspace.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_isspace.s: home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isspace.s: Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isspace.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isspace.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_isspace.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_isspace.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_itoa.o: home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_itoa.o: Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_itoa.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_itoa.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_itoa.i: home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_itoa.i: Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_itoa.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_itoa.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_itoa.s: home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_itoa.s: Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_itoa.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_itoa.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_itoa.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_itoa.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_latoi.o: home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_latoi.o: Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_latoi.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_latoi.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_latoi.i: home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_latoi.i: Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_latoi.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_latoi.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_latoi.s: home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_latoi.s: Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_latoi.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_latoi.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_latoi.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_latoi.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.o: home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.o: Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.i: home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.i: Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.s: home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.s: Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.o: home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.o: Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.i: home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.i: Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.s: home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.s: Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.o: home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.o: Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.i: home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.i: Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.s: home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.s: Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.o: home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.o: Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.i: home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.i: Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.s: home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.s: Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.o: home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.o: Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.i: home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.i: Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.s: home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.s: Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.o: home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.o: Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.i: home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.i: Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.s: home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.s: Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.o: home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.o: Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.i: home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.i: Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.s: home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.s: Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.o: home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.o: Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.i: home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.i: Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.s: home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.s: Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.o: home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.o: Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.i: home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.i: Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.s: home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.s: Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.o: home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.o: Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.i: home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.i: Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.s: home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.s: Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.o: home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.o: Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.i: home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.i: Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.s: home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.s: Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.o: home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.o: Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.i: home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.i: Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.s: home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.s: Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memchr.o: home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memchr.o: Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memchr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memchr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memchr.i: home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memchr.i: Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memchr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memchr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memchr.s: home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memchr.s: Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memchr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memchr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memchr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memchr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.o: home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.o: Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.i: home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.i: Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.s: home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.s: Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.o: home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.o: Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.i: home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.i: Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.s: home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.s: Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memdel.o: home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memdel.o: Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memdel.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memdel.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memdel.i: home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memdel.i: Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memdel.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memdel.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memdel.s: home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memdel.s: Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memdel.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memdel.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memdel.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memdel.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memmove.o: home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memmove.o: Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memmove.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memmove.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memmove.i: home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memmove.i: Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memmove.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memmove.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memmove.s: home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memmove.s: Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memmove.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memmove.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memmove.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memmove.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memset.o: home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memset.o: Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memset.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memset.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memset.i: home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memset.i: Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memset.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memset.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_memset.s: home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memset.s: Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memset.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memset.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_memset.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_memset.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_octal.o: home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_octal.o: Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_octal.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_octal.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_octal.i: home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_octal.i: Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_octal.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_octal.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_octal.s: home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_octal.s: Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_octal.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_octal.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_octal.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_octal.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_pow.o: home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_pow.o: Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_pow.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_pow.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_pow.i: home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_pow.i: Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_pow.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_pow.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_pow.s: home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_pow.s: Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_pow.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_pow.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_pow.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_pow.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar.o: home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar.o: Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar.i: home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar.i: Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar.s: home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar.s: Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.o: home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.o: Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.i: home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.i: Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.s: home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.s: Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl.o: home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl.o: Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl.i: home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl.i: Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl.s: home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl.s: Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.o: home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.o: Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.i: home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.i: Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.s: home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.s: Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.o: home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.o: Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.i: home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.i: Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.s: home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.s: Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.o: home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.o: Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.i: home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.i: Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.s: home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.s: Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr.o: home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr.o: Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr.i: home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr.i: Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr.s: home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr.s: Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.o: home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.o: Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.i: home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.i: Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.s: home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.s: Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.o: home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.o: Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.i: home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.i: Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.s: home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.s: Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.o: home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.o: Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.i: home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.i: Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.s: home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.s: Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcat.o: home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strcat.o: Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcat.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcat.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcat.i: home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strcat.i: Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcat.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcat.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcat.s: home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strcat.s: Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcat.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcat.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcat.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcat.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strchr.o: home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strchr.o: Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strchr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strchr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strchr.i: home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strchr.i: Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strchr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strchr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strchr.s: home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strchr.s: Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strchr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strchr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strchr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strchr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strclr.o: home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strclr.o: Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strclr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strclr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strclr.i: home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strclr.i: Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strclr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strclr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strclr.s: home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strclr.s: Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strclr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strclr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strclr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strclr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.o: home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.o: Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.i: home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.i: Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.s: home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.s: Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.o: home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.o: Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.i: home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.i: Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.s: home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.s: Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.o: home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.o: Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.i: home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.i: Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.s: home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.s: Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strdel.o: home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strdel.o: Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdel.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdel.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strdel.i: home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strdel.i: Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdel.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdel.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strdel.s: home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strdel.s: Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdel.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdel.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdel.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdel.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strdup.o: home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strdup.o: Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdup.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdup.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strdup.i: home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strdup.i: Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdup.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdup.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strdup.s: home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strdup.s: Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdup.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdup.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strdup.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strdup.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strequ.o: home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strequ.o: Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strequ.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strequ.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strequ.i: home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strequ.i: Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strequ.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strequ.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strequ.s: home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strequ.s: Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strequ.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strequ.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strequ.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strequ.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_striter.o: home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_striter.o: Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striter.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striter.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_striter.i: home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_striter.i: Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striter.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striter.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_striter.s: home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_striter.s: Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striter.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striter.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striter.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striter.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_striteri.o: home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_striteri.o: Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striteri.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striteri.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_striteri.i: home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_striteri.i: Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striteri.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striteri.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_striteri.s: home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_striteri.s: Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striteri.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striteri.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_striteri.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_striteri.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.o: home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.o: Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.i: home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.i: Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.s: home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.s: Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.o: home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.o: Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.i: home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.i: Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.s: home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.s: Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strlen.o: home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strlen.o: Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlen.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlen.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strlen.i: home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strlen.i: Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlen.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlen.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strlen.s: home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strlen.s: Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlen.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlen.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strlen.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strlen.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strmap.o: home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strmap.o: Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmap.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmap.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strmap.i: home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strmap.i: Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmap.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmap.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strmap.s: home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strmap.s: Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmap.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmap.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmap.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmap.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.o: home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.o: Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.i: home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.i: Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.s: home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.s: Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncat.o: home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strncat.o: Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncat.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncat.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncat.i: home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strncat.i: Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncat.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncat.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncat.s: home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strncat.s: Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncat.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncat.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncat.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncat.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.o: home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.o: Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.i: home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.i: Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.s: home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.s: Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.o: home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.o: Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.i: home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.i: Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.s: home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.s: Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.o: home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.o: Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.i: home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.i: Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.s: home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.s: Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnew.o: home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strnew.o: Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnew.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnew.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnew.i: home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strnew.i: Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnew.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnew.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnew.s: home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strnew.s: Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnew.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnew.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnew.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnew.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.o: home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.o: Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.i: home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.i: Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.s: home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.s: Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.o: home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.o: Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.i: home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.i: Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.s: home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.s: Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.o: home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.o: Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.i: home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.i: Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.s: home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.s: Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.o: home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.o: Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.i: home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.i: Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.s: home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.s: Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strstr.o: home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strstr.o: Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strstr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strstr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strstr.i: home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strstr.i: Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strstr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strstr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strstr.s: home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strstr.s: Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strstr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strstr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strstr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strsub.o: home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strsub.o: Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsub.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsub.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strsub.i: home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strsub.i: Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsub.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsub.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strsub.s: home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strsub.s: Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsub.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsub.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strsub.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strsub.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.o: home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.o: Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.i: home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.i: Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.s: home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.s: Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_swap.o: home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_swap.o: Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_swap.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_swap.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_swap.i: home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_swap.i: Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_swap.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_swap.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_swap.s: home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_swap.s: Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_swap.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_swap.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_swap.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_swap.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_to_char.o: home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_to_char.o: Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_to_char.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_to_char.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_to_char.i: home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_to_char.i: Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_to_char.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_to_char.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_to_char.s: home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_to_char.s: Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_to_char.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_to_char.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_to_char.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_to_char.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_tolower.o: home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_tolower.o: Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_tolower.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_tolower.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_tolower.i: home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_tolower.i: Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_tolower.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_tolower.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_tolower.s: home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_tolower.s: Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_tolower.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_tolower.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_tolower.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_tolower.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_toupper.o: home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_toupper.o: Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_toupper.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_toupper.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_toupper.i: home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_toupper.i: Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_toupper.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_toupper.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_toupper.s: home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_toupper.s: Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_toupper.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_toupper.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_toupper.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_toupper.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.o: home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.o: Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.i: home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.i: Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.s: home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.s: Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/ft_upstr.o: home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_upstr.o: Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_upstr.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_upstr.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.o
+Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/ft_upstr.i: home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_upstr.i: Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_upstr.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_upstr.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.i
+Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/ft_upstr.s: home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_upstr.s: Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_upstr.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_upstr.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/ft_upstr.c.s
+Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/ft_upstr.c.s
 
-home/lenus/Desktop/PushSwapNew/libft/get_next_line.o: home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o
+Users/tdontos-/Desktop/pushswap/libft/get_next_line.o: Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/get_next_line.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/get_next_line.o
 
 # target to build an object file
-home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.o
+Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.o
 
-home/lenus/Desktop/PushSwapNew/libft/get_next_line.i: home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.i
+Users/tdontos-/Desktop/pushswap/libft/get_next_line.i: Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.i
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/get_next_line.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/get_next_line.i
 
 # target to preprocess a source file
-home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.i:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.i
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.i
+Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.i
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.i
 
-home/lenus/Desktop/PushSwapNew/libft/get_next_line.s: home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.s
+Users/tdontos-/Desktop/pushswap/libft/get_next_line.s: Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.s
 
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/get_next_line.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/get_next_line.s
 
 # target to generate assembly for a file
-home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.s:
-	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.s
-.PHONY : home/lenus/Desktop/PushSwapNew/libft/get_next_line.c.s
+Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/pushswap.dir/build.make CMakeFiles/pushswap.dir/Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.s
+.PHONY : Users/tdontos-/Desktop/pushswap/libft/get_next_line.c.s
 
 src/main.o: src/main.c.o
 
@@ -2616,279 +2616,279 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... pushswap"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/check_format.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/check_format.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/check_format.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/ft_printf.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/output.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/output.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/output.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/read_arg.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/read_flags.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/ft_printf/save_conf.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addchr_e.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addchr_s.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_e.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_addnchr_s.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_atoi.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_atoi.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_atoi.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_bzero.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_bzero.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_bzero.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_chr_rep.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_chrstr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_comb.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_comb.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_comb.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_expn.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_expn.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_expn.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_float_itoa.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_hex.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_hex.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_hex.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isalnum.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isalpha.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isascii.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isascii.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isascii.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isdigit.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isprint.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isprint.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isprint.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isspace.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isspace.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_isspace.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_itoa.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_itoa.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_itoa.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_latoi.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_latoi.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_latoi.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lowstr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstadd.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstappend.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstdel.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstdelone.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstiter.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstlen.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstmap.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_lstnew.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_makemtrx.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memalloc.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memccpy.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memchr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memchr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memchr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memcmp.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memcpy.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memdel.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memdel.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memdel.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memmove.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memmove.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memmove.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memset.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memset.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_memset.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_octal.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_octal.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_octal.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_pow.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_pow.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_pow.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putchar.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putchar.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putchar.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putchar_fd.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putendl.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putendl.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putendl.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putendl_fd.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putnbr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putnbr_fd.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putstr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putstr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putstr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_putstr_fd.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_rewrite.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_sqrt.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcat.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcat.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcat.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strchr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strchr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strchr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strclr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strclr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strclr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcmp.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcpy.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strcpy_chr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strdel.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strdel.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strdel.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strdup.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strdup.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strdup.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strequ.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strequ.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strequ.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_striter.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_striter.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_striter.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_striteri.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_striteri.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_striteri.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strjoin.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strlcat.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strlen.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strlen.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strlen.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strmap.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strmap.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strmap.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strmapi.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncat.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncat.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncat.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncmp.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strncpy.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnequ.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnew.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnew.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnew.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strnstr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strojoin.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strrchr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strsplit.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strstr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strstr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strstr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strsub.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strsub.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strsub.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_strtrim.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_swap.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_swap.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_swap.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_to_char.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_to_char.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_to_char.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_tolower.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_tolower.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_tolower.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_toupper.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_toupper.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_toupper.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_unitoa.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_upstr.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_upstr.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/ft_upstr.s"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/get_next_line.o"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/get_next_line.i"
-	@echo "... home/lenus/Desktop/PushSwapNew/libft/get_next_line.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/check_format.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/check_format.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/check_format.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/ft_printf.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/output.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/output.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/output.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/read_arg.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/read_flags.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/ft_printf/save_conf.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addchr_e.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addchr_s.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_e.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_addnchr_s.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_atoi.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_atoi.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_atoi.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_bzero.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_bzero.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_bzero.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_chr_rep.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_chrstr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_comb.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_comb.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_comb.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_expn.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_expn.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_expn.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_float_itoa.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_hex.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_hex.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_hex.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isalnum.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isalpha.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isascii.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isascii.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isascii.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isdigit.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isprint.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isprint.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isprint.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isspace.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isspace.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_isspace.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_itoa.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_itoa.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_itoa.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_latoi.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_latoi.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_latoi.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lowstr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstadd.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstappend.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstdel.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstdelone.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstiter.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstlen.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstmap.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_lstnew.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_makemtrx.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memalloc.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memccpy.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memchr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memchr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memchr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memcmp.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memcpy.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memdel.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memdel.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memdel.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memmove.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memmove.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memmove.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memset.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memset.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_memset.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_octal.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_octal.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_octal.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_pow.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_pow.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_pow.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putchar.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putchar.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putchar.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putchar_fd.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putendl.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putendl.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putendl.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putendl_fd.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putnbr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putnbr_fd.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putstr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putstr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putstr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_putstr_fd.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_rewrite.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_sqrt.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcat.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcat.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcat.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strchr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strchr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strchr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strclr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strclr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strclr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcmp.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcpy.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strcpy_chr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strdel.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strdel.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strdel.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strdup.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strdup.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strdup.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strequ.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strequ.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strequ.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_striter.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_striter.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_striter.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_striteri.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_striteri.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_striteri.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strjoin.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strlcat.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strlen.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strlen.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strlen.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strmap.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strmap.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strmap.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strmapi.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncat.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncat.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncat.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncmp.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strncpy.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnequ.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnew.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnew.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnew.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strnstr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strojoin.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strrchr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strsplit.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strstr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strstr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strstr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strsub.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strsub.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strsub.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_strtrim.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_swap.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_swap.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_swap.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_to_char.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_to_char.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_to_char.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_tolower.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_tolower.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_tolower.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_toupper.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_toupper.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_toupper.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_unitoa.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_upstr.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_upstr.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/ft_upstr.s"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/get_next_line.o"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/get_next_line.i"
+	@echo "... Users/tdontos-/Desktop/pushswap/libft/get_next_line.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
