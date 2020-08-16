@@ -42,7 +42,9 @@ int				skip_flags(char **args);
 void			error(char *msg);
 int				check_validate(char **args, int len, int **a);
 int				search_flags(char **args, int len, t_stk *stk);
-void			check_repeat(t_stk *stk);
+void			check_repeat(const char **args);
+void			cmp_args(const char *cmp, const char **args);
+void			check_number(const char *str);
 /*
  * flags_list.c
 */

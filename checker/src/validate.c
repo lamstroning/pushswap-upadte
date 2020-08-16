@@ -21,7 +21,7 @@ int		check_validate(char **args, int len, int **a)
 	i = skip_flags(args);
 	count_elements = len + (i + 1) * -1;
 	if (count_elements < 1)
-		error("please, enter minimum 2 numbers");
+		error("");
 	*a = ft_memalloc(sizeof(int) * count_elements);
 	size = 0;
 	while (++i <= len)
@@ -65,37 +65,47 @@ int		search_flags(char **args, int len, t_stk *stk)
 	return (result);
 }
 
-void	check_repeat(t_stk *stk)
+void check_repeat(const char **args)
 {
-	int		len;
-	int		*repeat;
-	int		*p_repeat;
-	int		stack_size;
+	int i;
 
-	len = stk->cnt_a;
-	while (--len >= 0)
+	i = 0;
+	while (args[i + 1])
 	{
-		stk->max = stk->max < stk->a[len] ? stk->a[len] : stk->max;
-		stk->min = stk->min > stk->a[len] ? stk->a[len] : stk->min;
+		check_number(args[i]);
+		check_number(args[i + 1]);
+		cmp_args(args[i], &args[i + 1]);
+		i++;
 	}
-	stack_size = stk->max < 0 ? stk->max * -1 : stk->max;
-	if (stk->min < 0)
-		stack_size += stk->min * -1;
-	repeat = (int*)ft_memalloc(sizeof(int) * stack_size);
-	repeat = ft_memset(repeat, 0, stk->max);
-	p_repeat = stk->min < 0 ? repeat + stk->min * -1 : repeat;
-	len = stk->cnt_a;
-	while (--len >= 0)
-	{
-		p_repeat[stk->a[len]]++;
-		if (p_repeat[stk->a[len]] == 2)
+}
+
+void check_number(const char *str)
+{
+	char	*tmp;
+
+	tmp = ft_itoa(ft_latoi(str));
+	ft_putendl(tmp);
+	if (!tmp || ft_strcmp(tmp, str))
+		error("I'ts not are number!");
+	ft_strdel(&tmp);
+}
+
+void	cmp_args(const char *cmp, const char **args)
+{
+	int i;
+
+	i = -1;
+	if (!args || !cmp)
+		return ;
+	while (args[++i])
+		if (!ft_strcmp(args[i], cmp))
 			error("repeat numbers!");
-	}
-	free(repeat);
 }
 
 void	error(char *msg)
 {
+	if (!ft_strlen(msg))
+		exit(1);
 	ft_putstr_fd("\033[91mError: ", 2);
 	ft_putstr_fd(msg, 2);
 	write(2, "\n", 1);

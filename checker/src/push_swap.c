@@ -101,11 +101,11 @@ int		main(int argc, const char **argv)
 	int		*a;
 
 	if (argc <= 1)
-		error("empty arguments");
+		error("");
+	check_repeat(&argv[1]);
 	args_stk = parse_string(&argv[1], argc - 1, &size);
 	size = check_validate(args_stk, size, &a);
 	stack = create_stack(size, a);
-	check_repeat(stack);
 	search_flags(args_stk, argc - 2, stack);
 	distance_char(stack);
 	check_result(stack);
