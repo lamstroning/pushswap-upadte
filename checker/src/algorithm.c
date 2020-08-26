@@ -32,13 +32,13 @@ void	read_cmd(t_stk *stk)
 	int		count_cmd;
 
 	count_cmd = 0;
-	print_stack(stk);
+//	print_stack(stk);
 	while (get_next_line(0, &cmd))
 	{
 		if (ft_strlen(cmd) == 0)
 			break ;
 		count_cmd += split_cmd(cmd, stk);
-		print_stack(stk);
+//		print_stack(stk);
 		ft_strdel(&cmd);
 	}
 	ft_strdel(&cmd);

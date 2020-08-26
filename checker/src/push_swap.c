@@ -60,7 +60,7 @@ char	**merge_stack(char ****merge, int size)
 
 	i = 0;
 	j = -1;
-	res = (char**)ft_memalloc(sizeof(char *) * (size + 2));
+	res = (char**)ft_memalloc(sizeof(char *) * (size + 1));
 	current = res;
 	while (size >= 0)
 	{

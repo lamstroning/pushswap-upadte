@@ -65,7 +65,7 @@ int		search_flags(char **args, int len, t_stk *stk)
 	return (result);
 }
 
-void check_repeat(const char **args)
+void	check_repeat(const char **args)
 {
 	int i;
 
@@ -79,12 +79,11 @@ void check_repeat(const char **args)
 	}
 }
 
-void check_number(const char *str)
+void	check_number(const char *str)
 {
 	char	*tmp;
 
 	tmp = ft_itoa(ft_latoi(str));
-	ft_putendl(tmp);
 	if (!tmp || ft_strcmp(tmp, str))
 		error("I'ts not are number!");
 	ft_strdel(&tmp);
