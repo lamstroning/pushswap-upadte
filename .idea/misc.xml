@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/bin" />
+      <file path="$PROJECT_DIR$/checker/obj" />
+      <file path="$PROJECT_DIR$/ft_printf" />
+      <file path="$PROJECT_DIR$/libft" />
+      <file path="$PROJECT_DIR$/obj" />
+      <file path="$PROJECT_DIR$/pushswap" />
+      <file path="$PROJECT_DIR$/test_swap" />
+    </excludeRoots>
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>

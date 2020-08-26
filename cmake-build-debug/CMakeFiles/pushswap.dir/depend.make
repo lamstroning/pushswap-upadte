@@ -310,8 +310,5 @@ CMakeFiles/pushswap.dir/libft/ft_upstr.c.o: ../libft/libft.h
 CMakeFiles/pushswap.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 CMakeFiles/pushswap.dir/libft/get_next_line.c.o: ../libft/libft.h
 
-CMakeFiles/pushswap.dir/pushswap/src/main.c.o: ../checker/inc/push_swap.h
-CMakeFiles/pushswap.dir/pushswap/src/main.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/pushswap.dir/pushswap/src/main.c.o: ../libft/libft.h
 CMakeFiles/pushswap.dir/pushswap/src/main.c.o: ../pushswap/src/main.c
 

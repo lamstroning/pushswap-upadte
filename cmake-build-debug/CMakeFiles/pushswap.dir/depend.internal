@@ -311,7 +311,4 @@ CMakeFiles/pushswap.dir/libft/get_next_line.c.o
  /Users/tdontos-/Desktop/pushswap/libft/get_next_line.c
  /Users/tdontos-/Desktop/pushswap/libft/libft.h
 CMakeFiles/pushswap.dir/pushswap/src/main.c.o
- ../checker/inc/push_swap.h
- ../ft_printf/ft_printf.h
- ../libft/libft.h
  /Users/tdontos-/Desktop/pushswap/pushswap/src/main.c
